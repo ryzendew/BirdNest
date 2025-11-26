@@ -1,0 +1,24 @@
+[package]
+name = "birdnest"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A unified package manager for PikaOS supporting pikman, apt, and flatpak"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+anyhow = "1.0"
+thiserror = "1.0"
+colored = "2.1"
+regex = "1.10"
+libc = "0.2"
+iced = { version = "0.12", features = ["tokio", "image", "svg"] }
+tokio = { version = "1.35", features = ["full"] }
+futures = "0.3"
+
+[dev-dependencies]
+mockall = "0.12"
+
