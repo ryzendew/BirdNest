@@ -105,23 +105,6 @@ birdnest show package-name
 # Show flatpak info
 birdnest show --flatpak app-name
 ```
-
-### System Updates
-
-```bash
-# Check for system updates
-birdnest system-update check
-
-# List available updates
-birdnest system-update list
-
-# Apply all pending updates
-birdnest system-update apply
-
-# Apply without confirmation
-birdnest system-update apply -y
-```
-
 ### Clean Cache
 
 ```bash
